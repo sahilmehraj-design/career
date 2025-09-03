@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>My Career Story</title>
 
-    <!-- Google Font -->
+    
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
       rel="stylesheet"
@@ -24,7 +24,7 @@
         line-height: 1.6;
       }
 
-      /* Header */
+      
       header {
         background: linear-gradient(
           90deg,
@@ -45,7 +45,7 @@
         font-style: italic;
       }
 
-      /* NAV: thumbnails */
+      
       nav {
         background: burlywood;
         padding: 12px 40px;
@@ -82,13 +82,13 @@
         box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
       }
 
-      /* Main layout */
+      
       main {
         padding: 24px 40px;
         min-height: 400px;
       }
 
-      /* Tabs container (all stacked in same place) */
+      
       .tab {
         display: none;
         grid-template-columns: 2fr 1fr;
@@ -126,12 +126,12 @@
         min-height: 300px;
       }
 
-      /* Show only targeted tab */
+      
       .tab:target {
         display: grid;
       }
 
-      /* Default welcome screen */
+      
       #welcome {
         display: grid;
         grid-template-columns: 1fr;
@@ -141,7 +141,7 @@
         font-style: italic;
       }
 
-      /* Hide welcome when another tab is targeted */
+      
       main:has(.tab:target) #welcome {
         display: none;
       }
@@ -149,7 +149,7 @@
         display: grid;
       }
 
-      /* Footer */
+      
       footer {
         background: #222;
         color: #fff;
@@ -159,7 +159,7 @@
         font-style: italic;
       }
 
-      /* Responsive */
+      
       @media (max-width: 820px) {
         .tab {
           grid-template-columns: 1fr;
@@ -173,7 +173,7 @@
       <p>From Dreams to Deadlines</p>
     </header>
 
-    <!-- NAVIGATION -->
+    
     <nav>
       <ul>
         <li>
@@ -191,7 +191,7 @@
     </nav>
 
     <main>
-      <!-- WELCOME (default) -->
+      
       <div class="tab" id="welcome">
         <section>
           <h2>Welcome</h2>
@@ -199,7 +199,7 @@
         </section>
       </div>
 
-      <!-- SCHOOL -->
+      
       <div class="tab" id="school">
         <section>
           <h2>My School</h2>
@@ -215,7 +215,7 @@
         </aside>
       </div>
 
-      <!-- HIGHSCHOOL -->
+      
       <div class="tab" id="highschool">
         <section>
           <h2>My High School (+2)</h2>
@@ -231,7 +231,7 @@
         </aside>
       </div>
 
-      <!-- COLLEGE -->
+      
       <div class="tab" id="college">
         <section>
           <h2>My College</h2>
